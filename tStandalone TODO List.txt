@@ -1,0 +1,31 @@
+Made this to help prevent any overlap (and the subsequent issues) when working on different patches at the same time.
+
+Legend: 
+* = Category
+- = Change
+^ = Referring to above Change
+? = Suggested Change
+! = Critical Change, fix as soon as possible
+
+TODO List:
+*Known Issues:
+	-IndexOutOfRange exception thrown agressively in multiplayer.
+	!Massive multiplayer MMR boss desyncs due to desynced server/client mod bool values.
+*Master Mode Reloaded:
+	-Additional AI for all of the Vanilla Bosses (Mutant)
+		^Especially Golem, huge pushover, even in Expert
+	-Additional Weapons from each boss
+	-Non-boss enemy AI changes (Mutant)
+	-New debuffs from enemies/bosses/biomes (Mutant)
+		^Possibly accessories to combat said debuffs
+	-Preventative measures to stop any cheese attempts of bosses
+	-General balance changes to the mode as a whole
+	-Playtesting of the mode (whenever we get a majority of this stuff finished)
+*General:
+	-New MenuMode when you are reinitializing your client (Stevie)
+	-QoL changes that haven't already been implemented (if any, don't have any on mind atm)
+	-Resource pack support (not sure if possible due to tmod patcher)
+	-Make "Host & Play" button run the modded TerrariaServer.exe, not the vanilla one
+		^Either that, or prevent modded players from joining vanilla servers (or both)
+	-Localization for modded text
+	-Discord Rich Presence compatability
